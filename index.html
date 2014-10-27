@@ -1,0 +1,36 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+<title>Queen's Cares</title>
+<style>
+h1
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 16px;
+    font-weight : bold;
+}
+label,a 
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px; 
+}
+
+</style>
+</head>	
+
+<body>
+<h1>Queen's Cares</h1>
+<!-- TODO: Add Description, Warnings -->
+<form method="POST" id="shareform" action="handler.php"> 
+<p>
+<label for='email'>Your Queen's Email Address:</label> <br>
+<input type="email" name="email" required> <br>
+</p>
+<p>
+<label for='message'>Message:</label> <br>
+<textarea name="message" required></textarea>
+</p>
+<input type="submit" value="Submit"><br>
+</form>
+</body>
+</html>
