@@ -1,37 +1,28 @@
 <!DOCTYPE HTML> 
 <html>
 <head>
-<title>Queen's Cares</title>
-<style>
-h1
-{
-	font-family : Arial, Helvetica, sans-serif;
-	font-size : 16px;
-    font-weight : bold;
-}
-label,a 
-{
-	font-family : Arial, Helvetica, sans-serif;
-	font-size : 12px; 
-}
-
-</style>
+    <link rel="stylesheet" href="main.css">
+    <title>Queen's Cares</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>	
 
 <body>
-<h1>Queen's Cares</h1>
-<!-- TODO: Add Description, Warnings -->
-<form action="http://getsimpleform.com/messages?form_api_token=0f2621b1ff6e5596f4a82e0a45aa4c5a" method="post">
-<input type='hidden' name='redirect_to' value='http://queenscares.github.io/thank-you.html' />
-<p>
-<label for='email'>Your Queen's Email Address:</label> <br>
-<input type="email" name="email" required> <br>
-</p>
-<p>
-<label for='message'>Message:</label> <br>
-<textarea name="message" required></textarea>
-</p>
-<input type="submit" value="Submit"><br>
-</form>
+    <div class="intro">
+        <h1><FONT COLOR="#001F7A">Quee</FONT><FONT COLOR="#FFCC00">n's Ca</FONT><FONT COLOR="#FF0000">res</FONT></h1>
+    <div class='student'>
+    <!-- TODO: Add Description, Warnings -->
+    <div class='form'>
+    <form action="http://getsimpleform.com/messages?form_api_token=0f2621b1ff6e5596f4a82e0a45aa4c5a" method="post">
+    <input type='hidden' name='redirect_to' value='http://queenscares.github.io/thank-you.html' />
+    <label>Your Queen's Email Address:</label> <br>
+    <input type="email" class="email" required> <br>
+    <label>Message:</label> <br>
+    <textarea class="message" required></textarea>
+    <input type="submit" class="talk" value="Submit"><br>
+    </form>
+    </div>
+    </div>
+    <footer>If you feel like you need professional help, please click this click to find more information on how to do so</footer>
+    <div class="loading screen"></div>
 </body>
 </html>
