@@ -10,24 +10,34 @@ footer {
     }
 
 html {
-	 background: url("http://static.panoramio.com/photos/large/15047547.jpg") no-repeat center center fixed;
+	 background: url("grant.jpg") no-repeat center center fixed;
  	 -webkit-background-size: cover;
  	 -moz-background-size: cover;
  	 -o-background-size: cover;
  	 background-size: cover;
 }
 
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ffffd0;
+}
 h1 {
 	font-size:180px;
 	text-align:center;
 }
 
-
+ul {
+    text-align: left;
+}
 
 div {
 	position:relative;
 	text-align:center;
-
 }
 
 button {
@@ -36,6 +46,7 @@ button {
 
 input {
     margin: 5px;
+    width: 50%;
 }
 
 textarea {
@@ -44,25 +55,47 @@ textarea {
     height: 150px;
 }
 
-.form {
-    opacity: 1;
+.desc {
+	background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+	width:60%;
+	margin:auto;
+    margin-bottom: 5px;
+	font-weight:bold;
+	font-size:125%;
+	color: #001F7A;
+
+}
+
+.warning {
+	background-color: #001F7A;
+    border: 1px solid black;
+    opacity: 0.8;
+	width:60%;
+	margin: auto;
+    margin-bottom: 5px;
+	font-weight:bold;
+	font-size:125%;
+	color:gold;
 }
 
 .student {
 	background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.6;
-	width:40%;
+    opacity: 0.8;
+	width:50%;
 	margin:auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 	font-weight:bold;
-	font-size:200%;
+	font-size:175%;
 	color:red;
 
 }
 
-.talk, .listen{
-	margin:2%;
+.talk{
+	margin-top:1%;
+    margin-bottom: 2%;
 	-moz-box-shadow:inset 0px 1px 0px 0px #f9eca0;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #f9eca0;
 	box-shadow:inset 0px 1px 0px 0px #f9eca0;
@@ -96,6 +129,7 @@ textarea {
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #ded17c;
+    position:relative;
 }
 
 .talk:hover {
@@ -105,19 +139,7 @@ textarea {
 	background-color:#f2ab1e;
 }
 
-.listen:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911) );
-	background:-moz-linear-gradient( center top, #f2ab1e 5%, #f0c911 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2ab1e', endColorstr='#f0c911');
-	background-color:#f2ab1e;
-}
-
 .talk:active {
-	position:relative;
-	top:1px;
-}
-
-.listen:active {
 	position:relative;
 	top:1px;
 }
