@@ -55,6 +55,10 @@ textarea {
     height: 150px;
 }
 
+label.error{
+    font-size: 50%;
+
+}
 .desc {
 	background-color: #ffffff;
     border: 1px solid black;
