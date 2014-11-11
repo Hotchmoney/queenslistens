@@ -6,7 +6,7 @@ footer {
     border: 1px solid black;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
-
+    border-radius: 40px;
     }
 
 html {
@@ -65,11 +65,12 @@ label.error{
     opacity: 0.8;
 	width:60%;
 	margin:auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 	font-weight:bold;
 	font-size:125%;
 	color: #001F7A;
-
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #888888;
 }
 
 .warning {
@@ -78,10 +79,12 @@ label.error{
     opacity: 0.8;
 	width:60%;
 	margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 	font-weight:bold;
 	font-size:125%;
 	color:gold;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #888888;
 }
 
 .student {
@@ -94,7 +97,8 @@ label.error{
 	font-weight:bold;
 	font-size:175%;
 	color:red;
-
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #888888;
 }
 
 .talk{
